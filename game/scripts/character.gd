@@ -3,7 +3,7 @@ extends KinematicBody2D
 
 const GRAVITY_VEC = Vector2(0,980)
 const FLOOR_NORMAL = Vector2(0, -1)
-const SLOPE_SLIDE_STOP = 25 
+const SLOPE_SLIDE_STOP = 50
 const MIN_ONAIR_TIME = 0.01
 const RUN_SPEED = 600 # pixels/sec
 const WALK_SPEED = 250 # pixels/sec
@@ -27,7 +27,7 @@ func _fixed_process(delta):
   # Apply Gravity
   linear_vel += delta * GRAVITY_VEC
   # Move and Slide
-  linear_vel = move_and_slide( linear_vel, FLOOR_NORMAL, SLOPE_SLIDE_STOP )
+  linear_vel = move_and_slide(linear_vel, FLOOR_NORMAL, SLOPE_SLIDE_STOP)
   # Detect Floor
   if (is_move_and_slide_on_floor()):
     onair_time = 0    
