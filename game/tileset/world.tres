@@ -1,109 +1,132 @@
-[gd_resource type="TileSet" load_steps=25 format=1]
+[gd_resource type="TileSet" load_steps=38 format=1]
 
 [ext_resource path="res://asset/world/oven.png" type="Texture" id=1]
 [ext_resource path="res://asset/world/kitchen_0.png" type="Texture" id=2]
-[ext_resource path="res://asset/world/kitchen_1.png" type="Texture" id=3]
-[ext_resource path="res://asset/world/floor.png" type="Texture" id=4]
-[ext_resource path="res://asset/world/fridge.png" type="Texture" id=5]
-[ext_resource path="res://asset/world/garbage.png" type="Texture" id=6]
-[ext_resource path="res://asset/world/table.png" type="Texture" id=7]
+[ext_resource path="res://asset/world/background_3.png" type="Texture" id=3]
+[ext_resource path="res://asset/world/background_4.png" type="Texture" id=4]
+[ext_resource path="res://asset/world/background_5.png" type="Texture" id=5]
+[ext_resource path="res://asset/world/background_6.png" type="Texture" id=6]
+[ext_resource path="res://asset/world/window.png" type="Texture" id=7]
+[ext_resource path="res://asset/world/roof_0.png" type="Texture" id=8]
+[ext_resource path="res://asset/world/roof_1.png" type="Texture" id=9]
+[ext_resource path="res://asset/world/wall.png" type="Texture" id=10]
+[ext_resource path="res://asset/world/kitchen_1.png" type="Texture" id=11]
+[ext_resource path="res://asset/world/floor.png" type="Texture" id=12]
+[ext_resource path="res://asset/world/fridge.png" type="Texture" id=13]
+[ext_resource path="res://asset/world/garbage.png" type="Texture" id=14]
+[ext_resource path="res://asset/world/table.png" type="Texture" id=15]
+[ext_resource path="res://asset/world/background_0.png" type="Texture" id=16]
+[ext_resource path="res://asset/world/background_1.png" type="Texture" id=17]
+[ext_resource path="res://asset/world/background_2.png" type="Texture" id=18]
 
-[sub_resource type="SegmentShape2D" id=10]
+[sub_resource type="SegmentShape2D" id=1]
 
 custom_solver_bias = 0.0
 a = Vector2( -98, 118 )
 b = Vector2( 100, 118 )
 
-[sub_resource type="SegmentShape2D" id=11]
+[sub_resource type="SegmentShape2D" id=2]
 
 custom_solver_bias = 0.0
 a = Vector2( -100, -90 )
 b = Vector2( 100, -90 )
 
-[sub_resource type="SegmentShape2D" id=12]
+[sub_resource type="SegmentShape2D" id=3]
 
 custom_solver_bias = 0.0
 a = Vector2( -96, -138 )
 b = Vector2( 98, -138 )
 
-[sub_resource type="SegmentShape2D" id=13]
+[sub_resource type="SegmentShape2D" id=4]
 
 custom_solver_bias = 0.0
 a = Vector2( -128, -154 )
 b = Vector2( 128, -154 )
 
-[sub_resource type="SegmentShape2D" id=14]
+[sub_resource type="SegmentShape2D" id=5]
 
 custom_solver_bias = 0.0
 a = Vector2( 128, 0 )
 b = Vector2( -128, 0 )
 
-[sub_resource type="SegmentShape2D" id=15]
+[sub_resource type="SegmentShape2D" id=6]
 
 custom_solver_bias = 0.0
 a = Vector2( -110, -138 )
 b = Vector2( 106, -138 )
 
-[sub_resource type="SegmentShape2D" id=16]
+[sub_resource type="SegmentShape2D" id=7]
 
 custom_solver_bias = 0.0
 a = Vector2( -110, -28 )
 b = Vector2( 108, -28 )
 
-[sub_resource type="SegmentShape2D" id=17]
+[sub_resource type="SegmentShape2D" id=8]
 
 custom_solver_bias = 0.0
 a = Vector2( 106, 80 )
 b = Vector2( -108, 80 )
 
-[sub_resource type="SegmentShape2D" id=18]
+[sub_resource type="SegmentShape2D" id=9]
+
+custom_solver_bias = 0.0
+a = Vector2( 128, 128 )
+b = Vector2( -128, 128 )
+
+[sub_resource type="SegmentShape2D" id=10]
+
+custom_solver_bias = 0.0
+a = Vector2( -128, -128 )
+b = Vector2( 128, -128 )
+
+[sub_resource type="RectangleShape2D" id=11]
+
+custom_solver_bias = 0.0
+extents = Vector2( 64, 66 )
+
+[sub_resource type="SegmentShape2D" id=12]
 
 custom_solver_bias = 0.0
 a = Vector2( -128, -150 )
 b = Vector2( 128, -150 )
 
-[sub_resource type="SegmentShape2D" id=19]
+[sub_resource type="SegmentShape2D" id=13]
 
 custom_solver_bias = 0.0
 a = Vector2( -110, -132 )
 b = Vector2( -16, -132 )
 
-[sub_resource type="SegmentShape2D" id=20]
+[sub_resource type="SegmentShape2D" id=14]
 
 custom_solver_bias = 0.0
 a = Vector2( 12, -132 )
 b = Vector2( 110, -132 )
 
-[sub_resource type="RectangleShape2D" id=21]
-
-custom_solver_bias = 0.0
-extents = Vector2( 64, 66 )
-
-[sub_resource type="SegmentShape2D" id=22]
+[sub_resource type="SegmentShape2D" id=15]
 
 custom_solver_bias = 0.0
 a = Vector2( -142, -320 )
 b = Vector2( 142, -320 )
 
-[sub_resource type="SegmentShape2D" id=23]
+[sub_resource type="SegmentShape2D" id=16]
 
 custom_solver_bias = 0.0
 a = Vector2( -114, -70 )
 b = Vector2( -92, -70 )
 
-[sub_resource type="SegmentShape2D" id=24]
+[sub_resource type="SegmentShape2D" id=17]
 
 custom_solver_bias = 0.0
 a = Vector2( -134, -186 )
 b = Vector2( -14, -186 )
 
-[sub_resource type="SegmentShape2D" id=25]
+[sub_resource type="SegmentShape2D" id=18]
 
 custom_solver_bias = 0.0
 a = Vector2( -64, -62 )
 b = Vector2( 62, -62 )
 
-[sub_resource type="SegmentShape2D" id=26]
+[sub_resource type="SegmentShape2D" id=19]
 
 custom_solver_bias = 0.0
 a = Vector2( -320, -88 )
@@ -119,9 +142,9 @@ b = Vector2( 320, -88 )
 0/occluder_offset = Vector2( 128, 192 )
 0/navigation_offset = Vector2( 128, 192 )
 0/shape_offset = Vector2( 128, 192 )
-0/shapes = [ SubResource( 10 ), SubResource( 11 ), SubResource( 12 ), SubResource( 13 ) ]
-0/one_way_collision_direction = Vector2( 0, 0 )
-0/one_way_collision_max_depth = 0.0
+0/shapes = [ SubResource( 1 ), SubResource( 2 ), SubResource( 3 ), SubResource( 4 ) ]
+0/one_way_collision_direction = Vector2( 0, 1 )
+0/one_way_collision_max_depth = 20.0
 1/name = "kitchen1"
 1/texture = ExtResource( 2 )
 1/tex_offset = Vector2( 0, 0 )
@@ -130,62 +153,183 @@ b = Vector2( 320, -88 )
 1/occluder_offset = Vector2( 128, 192 )
 1/navigation_offset = Vector2( 128, 192 )
 1/shape_offset = Vector2( 128, 192 )
-1/shapes = [ SubResource( 14 ), SubResource( 15 ), SubResource( 16 ), SubResource( 17 ) ]
-1/one_way_collision_direction = Vector2( 0, 0 )
-1/one_way_collision_max_depth = 0.0
+1/shapes = [ SubResource( 5 ), SubResource( 6 ), SubResource( 7 ), SubResource( 8 ) ]
+1/one_way_collision_direction = Vector2( 0, 1 )
+1/one_way_collision_max_depth = 20.0
 2/name = "kitchen2"
-2/texture = ExtResource( 3 )
+2/texture = ExtResource( 11 )
 2/tex_offset = Vector2( 0, 0 )
 2/modulate = Color( 1, 1, 1, 1 )
 2/region = Rect2( 0, 0, 256, 384 )
 2/occluder_offset = Vector2( 128, 192 )
 2/navigation_offset = Vector2( 128, 192 )
 2/shape_offset = Vector2( 128, 192 )
-2/shapes = [ SubResource( 18 ), SubResource( 19 ), SubResource( 20 ) ]
-2/one_way_collision_direction = Vector2( 0, 0 )
-2/one_way_collision_max_depth = 0.0
+2/shapes = [ SubResource( 12 ), SubResource( 13 ), SubResource( 14 ) ]
+2/one_way_collision_direction = Vector2( 0, 1 )
+2/one_way_collision_max_depth = 20.0
 3/name = "floor"
-3/texture = ExtResource( 4 )
+3/texture = ExtResource( 12 )
 3/tex_offset = Vector2( 0, 0 )
 3/modulate = Color( 1, 1, 1, 1 )
 3/region = Rect2( 0, 0, 128, 128 )
 3/occluder_offset = Vector2( 64, 64 )
 3/navigation_offset = Vector2( 64, 64 )
 3/shape_offset = Vector2( 64, 64 )
-3/shapes = [ SubResource( 21 ) ]
+3/shapes = [ SubResource( 11 ) ]
 3/one_way_collision_direction = Vector2( 0, 0 )
 3/one_way_collision_max_depth = 0.0
 4/name = "fridge"
-4/texture = ExtResource( 5 )
+4/texture = ExtResource( 13 )
 4/tex_offset = Vector2( 0, 0 )
 4/modulate = Color( 1, 1, 1, 1 )
 4/region = Rect2( 0, 0, 384, 640 )
 4/occluder_offset = Vector2( 192, 320 )
 4/navigation_offset = Vector2( 192, 320 )
 4/shape_offset = Vector2( 192, 320 )
-4/shapes = [ SubResource( 22 ), SubResource( 23 ), SubResource( 24 ) ]
-4/one_way_collision_direction = Vector2( 0, 0 )
-4/one_way_collision_max_depth = 0.0
+4/shapes = [ SubResource( 15 ), SubResource( 16 ), SubResource( 17 ) ]
+4/one_way_collision_direction = Vector2( 0, 1 )
+4/one_way_collision_max_depth = 20.0
 5/name = "garbage"
-5/texture = ExtResource( 6 )
+5/texture = ExtResource( 14 )
 5/tex_offset = Vector2( 0, 0 )
 5/modulate = Color( 1, 1, 1, 1 )
 5/region = Rect2( 0, 0, 128, 256 )
 5/occluder_offset = Vector2( 64, 128 )
 5/navigation_offset = Vector2( 64, 128 )
 5/shape_offset = Vector2( 64, 128 )
-5/shapes = [ SubResource( 25 ) ]
-5/one_way_collision_direction = Vector2( 0, 0 )
-5/one_way_collision_max_depth = 0.0
+5/shapes = [ SubResource( 18 ) ]
+5/one_way_collision_direction = Vector2( 0, 1 )
+5/one_way_collision_max_depth = 20.0
 6/name = "table"
-6/texture = ExtResource( 7 )
+6/texture = ExtResource( 15 )
 6/tex_offset = Vector2( 0, 0 )
 6/modulate = Color( 1, 1, 1, 1 )
 6/region = Rect2( 0, 0, 640, 384 )
 6/occluder_offset = Vector2( 320, 192 )
 6/navigation_offset = Vector2( 320, 192 )
 6/shape_offset = Vector2( 320, 192 )
-6/shapes = [ SubResource( 26 ) ]
-6/one_way_collision_direction = Vector2( 0, 0 )
-6/one_way_collision_max_depth = 0.0
+6/shapes = [ SubResource( 19 ) ]
+6/one_way_collision_direction = Vector2( 0, 1 )
+6/one_way_collision_max_depth = 20.0
+7/name = "background"
+7/texture = ExtResource( 16 )
+7/tex_offset = Vector2( 0, 0 )
+7/modulate = Color( 1, 1, 1, 1 )
+7/region = Rect2( 0, 0, 128, 128 )
+7/occluder_offset = Vector2( 64, 64 )
+7/navigation_offset = Vector2( 64, 64 )
+7/shape_offset = Vector2( 0, 0 )
+7/shapes = [  ]
+7/one_way_collision_direction = Vector2( 0, 0 )
+7/one_way_collision_max_depth = 0.0
+8/name = "background1"
+8/texture = ExtResource( 17 )
+8/tex_offset = Vector2( 0, 0 )
+8/modulate = Color( 1, 1, 1, 1 )
+8/region = Rect2( 0, 0, 128, 128 )
+8/occluder_offset = Vector2( 64, 64 )
+8/navigation_offset = Vector2( 64, 64 )
+8/shape_offset = Vector2( 0, 0 )
+8/shapes = [  ]
+8/one_way_collision_direction = Vector2( 0, 0 )
+8/one_way_collision_max_depth = 0.0
+9/name = "background2"
+9/texture = ExtResource( 18 )
+9/tex_offset = Vector2( 0, 0 )
+9/modulate = Color( 1, 1, 1, 1 )
+9/region = Rect2( 0, 0, 128, 128 )
+9/occluder_offset = Vector2( 64, 64 )
+9/navigation_offset = Vector2( 64, 64 )
+9/shape_offset = Vector2( 0, 0 )
+9/shapes = [  ]
+9/one_way_collision_direction = Vector2( 0, 0 )
+9/one_way_collision_max_depth = 0.0
+10/name = "background3"
+10/texture = ExtResource( 3 )
+10/tex_offset = Vector2( 0, 0 )
+10/modulate = Color( 1, 1, 1, 1 )
+10/region = Rect2( 0, 0, 128, 128 )
+10/occluder_offset = Vector2( 64, 64 )
+10/navigation_offset = Vector2( 64, 64 )
+10/shape_offset = Vector2( 0, 0 )
+10/shapes = [  ]
+10/one_way_collision_direction = Vector2( 0, 0 )
+10/one_way_collision_max_depth = 0.0
+11/name = "background4"
+11/texture = ExtResource( 4 )
+11/tex_offset = Vector2( 0, 0 )
+11/modulate = Color( 1, 1, 1, 1 )
+11/region = Rect2( 0, 0, 128, 128 )
+11/occluder_offset = Vector2( 64, 64 )
+11/navigation_offset = Vector2( 64, 64 )
+11/shape_offset = Vector2( 0, 0 )
+11/shapes = [  ]
+11/one_way_collision_direction = Vector2( 0, 0 )
+11/one_way_collision_max_depth = 0.0
+12/name = "background5"
+12/texture = ExtResource( 5 )
+12/tex_offset = Vector2( 0, 0 )
+12/modulate = Color( 1, 1, 1, 1 )
+12/region = Rect2( 0, 0, 128, 128 )
+12/occluder_offset = Vector2( 64, 64 )
+12/navigation_offset = Vector2( 64, 64 )
+12/shape_offset = Vector2( 0, 0 )
+12/shapes = [  ]
+12/one_way_collision_direction = Vector2( 0, 0 )
+12/one_way_collision_max_depth = 0.0
+13/name = "background6"
+13/texture = ExtResource( 6 )
+13/tex_offset = Vector2( 0, 0 )
+13/modulate = Color( 1, 1, 1, 1 )
+13/region = Rect2( 0, 0, 128, 128 )
+13/occluder_offset = Vector2( 64, 64 )
+13/navigation_offset = Vector2( 64, 64 )
+13/shape_offset = Vector2( 0, 0 )
+13/shapes = [  ]
+13/one_way_collision_direction = Vector2( 0, 0 )
+13/one_way_collision_max_depth = 0.0
+14/name = "window"
+14/texture = ExtResource( 7 )
+14/tex_offset = Vector2( 0, 0 )
+14/modulate = Color( 1, 1, 1, 1 )
+14/region = Rect2( 0, 0, 256, 256 )
+14/occluder_offset = Vector2( 128, 128 )
+14/navigation_offset = Vector2( 128, 128 )
+14/shape_offset = Vector2( 128, 128 )
+14/shapes = [ SubResource( 9 ), SubResource( 10 ) ]
+14/one_way_collision_direction = Vector2( 0, 1 )
+14/one_way_collision_max_depth = 20.0
+15/name = "roof"
+15/texture = ExtResource( 8 )
+15/tex_offset = Vector2( 0, 0 )
+15/modulate = Color( 1, 1, 1, 1 )
+15/region = Rect2( 0, 0, 128, 128 )
+15/occluder_offset = Vector2( 64, 64 )
+15/navigation_offset = Vector2( 64, 64 )
+15/shape_offset = Vector2( 0, 0 )
+15/shapes = [  ]
+15/one_way_collision_direction = Vector2( 0, 0 )
+15/one_way_collision_max_depth = 0.0
+16/name = "roof1"
+16/texture = ExtResource( 9 )
+16/tex_offset = Vector2( 0, 0 )
+16/modulate = Color( 1, 1, 1, 1 )
+16/region = Rect2( 0, 0, 128, 128 )
+16/occluder_offset = Vector2( 64, 64 )
+16/navigation_offset = Vector2( 64, 64 )
+16/shape_offset = Vector2( 0, 0 )
+16/shapes = [  ]
+16/one_way_collision_direction = Vector2( 0, 0 )
+16/one_way_collision_max_depth = 0.0
+17/name = "wall"
+17/texture = ExtResource( 10 )
+17/tex_offset = Vector2( 0, 0 )
+17/modulate = Color( 1, 1, 1, 1 )
+17/region = Rect2( 0, 0, 128, 128 )
+17/occluder_offset = Vector2( 64, 64 )
+17/navigation_offset = Vector2( 64, 64 )
+17/shape_offset = Vector2( 64, 64 )
+17/shapes = [ SubResource( 11 ) ]
+17/one_way_collision_direction = Vector2( 0, 0 )
+17/one_way_collision_max_depth = 0.0
 
